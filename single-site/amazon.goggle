@@ -1,0 +1,9 @@
+! name: dockerhub
+! description: goggles/single-site/amazon-it
+! public: false
+! author: andrea-tomassi
+
+! Remove results not matching any other rule
+$discard
+
+$boost=3,site=www.amazon.it
